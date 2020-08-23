@@ -2,6 +2,7 @@ package com.test.SeleniumTest;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -18,11 +19,17 @@ public class ChromeTest {
 	    @BeforeSuite
 	    public static void setupClass() {
 	        WebDriverManager.chromedriver().setup();
+	        //WebDriverManager.firefoxdriver().setup();
 	    }
 
 	    @BeforeTest
 	    public void setupTest() {
-	        driver = new ChromeDriver();
+	        
+	    	//Launch chrome browser
+	    	driver = new ChromeDriver();
+	    	
+	    	//Launch firefox browser
+	    	//driver = new FirefoxDriver();
 	    }
 
 	    @AfterTest

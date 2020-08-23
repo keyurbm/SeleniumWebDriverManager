@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10255" started-at="2020-08-23T14:32:03Z" finished-at="2020-08-23T14:32:14Z">
+  <suite name="Default suite" duration-ms="20517" started-at="2020-08-23T15:05:34Z" finished-at="2020-08-23T15:05:54Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10255" started-at="2020-08-23T14:32:03Z" finished-at="2020-08-23T14:32:14Z">
+    <test name="Default test" duration-ms="20517" started-at="2020-08-23T15:05:34Z" finished-at="2020-08-23T15:05:54Z">
       <class name="com.test.SeleniumTest.ChromeTest">
-        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="setupClass" is-config="true" duration-ms="2645" started-at="2020-08-23T20:02:01Z" finished-at="2020-08-23T20:02:03Z">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="setupClass" is-config="true" duration-ms="2656" started-at="2020-08-23T20:35:31Z" finished-at="2020-08-23T20:35:34Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupClass -->
-        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="setupTest" is-config="true" duration-ms="5629" started-at="2020-08-23T20:02:03Z" finished-at="2020-08-23T20:02:09Z">
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="setupTest" is-config="true" duration-ms="12315" started-at="2020-08-23T20:35:34Z" finished-at="2020-08-23T20:35:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupTest -->
-        <test-method status="PASS" signature="test()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="test" duration-ms="3259" started-at="2020-08-23T20:02:09Z" finished-at="2020-08-23T20:02:12Z">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="test" duration-ms="5312" started-at="2020-08-23T20:35:46Z" finished-at="2020-08-23T20:35:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="teardown" is-config="true" duration-ms="1336" started-at="2020-08-23T20:02:12Z" finished-at="2020-08-23T20:02:14Z">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="teardown" is-config="true" duration-ms="2856" started-at="2020-08-23T20:35:51Z" finished-at="2020-08-23T20:35:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
