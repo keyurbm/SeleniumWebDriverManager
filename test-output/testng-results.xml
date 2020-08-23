@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10255" started-at="2020-08-23T14:32:03Z" finished-at="2020-08-23T14:32:14Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10255" started-at="2020-08-23T14:32:03Z" finished-at="2020-08-23T14:32:14Z">
+      <class name="com.test.SeleniumTest.ChromeTest">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="setupClass" is-config="true" duration-ms="2645" started-at="2020-08-23T20:02:01Z" finished-at="2020-08-23T20:02:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="setupTest()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="setupTest" is-config="true" duration-ms="5629" started-at="2020-08-23T20:02:03Z" finished-at="2020-08-23T20:02:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="test()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="test" duration-ms="3259" started-at="2020-08-23T20:02:09Z" finished-at="2020-08-23T20:02:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.test.SeleniumTest.ChromeTest@20e2cbe0]" name="teardown" is-config="true" duration-ms="1336" started-at="2020-08-23T20:02:12Z" finished-at="2020-08-23T20:02:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.test.SeleniumTest.ChromeTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
